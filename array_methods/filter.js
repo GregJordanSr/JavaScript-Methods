@@ -18,7 +18,7 @@ const liveInGeorgia = (student) => {
 return student.state === 'GA'
 }
 
-/* Can Also Use A CB Funciton Like Above */
+/* Can also use a callback funciton like above*/
 
 const secondWayWithCB = students.filter(liveInGeorgia, students);
 console.log(secondWayWithCB);
