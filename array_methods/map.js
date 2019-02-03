@@ -9,17 +9,17 @@ MAP DOES NOT MUTATE THE ORIGINAL ARRAY*/
 
 /* A Scenario Where You Need All The ID's into a new array. At least 2 ways of doing this */
 var officers = [
-    { id: 20, name: 'Michael' },
-    { id: 24, name: 'Mark' },
-    { id: 56, name: 'Jesse' },
-    { id: 88, name: 'Adam' }
-  ];
+  { id: 20, name: 'Michael' },
+  { id: 24, name: 'Mark' },
+  { id: 56, name: 'Jesse' },
+  { id: 88, name: 'Adam' }
+];
 /* We COULD use ForEach, but it is a little more work to get it set up since
 we have to define the empty array prior */
 
 const officerIds = [];
 
-officers.forEach(officer=> officerIds.push(officer.id));
+officers.forEach(officer => officerIds.push(officer.id));
 console.log (officerIds);
 /* logs [ 20, 24, 56, 88 ] to the console  */
 

@@ -19,4 +19,4 @@ const have2005InStock = carYears.some(cars => {
 
 console.log('2005', have2005InStock);
 
-/* Contribed example, but this could have some really good applications */
+/* Contrived example, but this could have some really good applications */
